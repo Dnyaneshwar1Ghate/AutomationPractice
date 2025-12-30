@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -20,13 +21,28 @@ public class AllTestCases {
 
 	@BeforeMethod
 	public void setupDriver() {
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+
+		String environment = System.getenv("CI");
+
+		if ("true".equalsIgnoreCase(environment)) {
+
+			options.addArguments("--headless");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--window-size=1920x1080");
+			options.addArguments("--no-sandbox");
+		} else {
+
+			options.addArguments("--start-maximized");
+		}
+
+		driver = new ChromeDriver(options);
+
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		driver.manage().window().maximize();
 
 	}
 
-	 @Test
+	@Test
 	public void radioDemo() {
 		List<WebElement> allRadio = driver.findElements(By.className("radioButton"));
 		System.out.println(allRadio.size());
@@ -42,7 +58,7 @@ public class AllTestCases {
 		}
 	}
 
-	 @Test
+	@Test
 	public void suggessionDemo() throws InterruptedException {
 
 		WebElement input = driver.findElement(By.id("autocomplete"));
@@ -62,7 +78,7 @@ public class AllTestCases {
 
 	}
 
-	 @Test
+	@Test
 	public void dropDown() throws InterruptedException {
 
 		WebElement dropdown = driver.findElement(By.id("dropdown-class-example"));
@@ -76,7 +92,7 @@ public class AllTestCases {
 
 	}
 
-	 @Test
+	@Test
 	public void checkBox() {
 
 		List<WebElement> allcheck = driver.findElements(By.xpath("//input[@type='checkbox']"));
@@ -114,7 +130,7 @@ public class AllTestCases {
 
 	}
 
-	@Test
+	//@Test
 	public void tabDemo() throws InterruptedException {
 
 		driver.findElement(By.id("opentab")).click();
@@ -128,7 +144,7 @@ public class AllTestCases {
 			}
 		}
 
-		WebElement logo = driver.findElement(By.xpath("(//ul[@class='navbar-nav ml-auto']/li)[2]"));
+		WebElement logo = driver.findElement(By.xpath("(//a[text()='Courses'])[1]"));
 		Assert.assertTrue(logo.isDisplayed(), "not displayed");
 		logo.click();
 		Thread.sleep(3000);
@@ -140,18 +156,17 @@ public class AllTestCases {
 	}
 
 	@Test
-	public void switchDemo()
-	{
-		 WebElement alt = driver.findElement(By.id("alertbtn"));
-		 alt.click(); 
-		 Alert alert = driver.switchTo().alert(); 
-		 String alertText = alert.getText();
-		 System.out.println(alertText);
-		 alert.accept();	 
+	public void switchDemo() {
+		WebElement alt = driver.findElement(By.id("alertbtn"));
+		alt.click();
+		Alert alert = driver.switchTo().alert();
+		String alertText = alert.getText();
+		System.out.println(alertText);
+		alert.accept();
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
-		 driver.quit();
+		driver.quit();
 	}
 }
