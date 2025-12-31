@@ -5,44 +5,14 @@ import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
-
-
-public class AllTestCases {
-
-	WebDriver driver;
-
-	@BeforeMethod
-	public void setupDriver() {
-		ChromeOptions options = new ChromeOptions();
-
-		String environment = System.getenv("CI");
-
-		if ("true".equalsIgnoreCase(environment)) {
-
-			options.addArguments("--headless");
-			options.addArguments("--disable-gpu");
-			options.addArguments("--window-size=1920x1080");
-			options.addArguments("--no-sandbox");
-		} else {
-
-			options.addArguments("--start-maximized");
-		}
-
-		driver = new ChromeDriver(options);
-
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-
-	}
+public class AllTestCases extends BaseClass {
 
 	@Test
 	public void radioDemo() {
@@ -132,7 +102,7 @@ public class AllTestCases {
 
 	}
 
-	//@Test
+	// @Test
 	public void tabDemo() throws InterruptedException {
 
 		driver.findElement(By.id("opentab")).click();

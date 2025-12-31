@@ -2,84 +2,84 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-31T16:09:12 IST" name="Suite" finished-at="2025-12-31T16:09:43 IST" duration-ms="30598">
+  <suite started-at="2025-12-31T16:13:58 IST" name="Default suite" finished-at="2025-12-31T16:14:28 IST" duration-ms="29558">
     <groups>
     </groups>
-    <test started-at="2025-12-31T16:09:12 IST" name="Test" finished-at="2025-12-31T16:09:43 IST" duration-ms="30598">
+    <test started-at="2025-12-31T16:13:58 IST" name="Default test" finished-at="2025-12-31T16:14:28 IST" duration-ms="29558">
       <class name="AutomationPractice.AllTestCases">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:12 IST" name="setupDriver" finished-at="2025-12-31T16:09:17 IST" duration-ms="4595" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:13:58 IST" name="setupDriver" finished-at="2025-12-31T16:14:02 IST" duration-ms="3427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="checkBox()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:17 IST" name="checkBox" finished-at="2025-12-31T16:09:17 IST" duration-ms="382" status="PASS">
+        <test-method signature="checkBox()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="checkBox" finished-at="2025-12-31T16:14:02 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:17 IST" name="tearDown" finished-at="2025-12-31T16:09:17 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="tearDown" finished-at="2025-12-31T16:14:02 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:17 IST" name="setupDriver" finished-at="2025-12-31T16:09:20 IST" duration-ms="2876" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="setupDriver" finished-at="2025-12-31T16:14:06 IST" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="dropDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:20 IST" name="dropDown" finished-at="2025-12-31T16:09:25 IST" duration-ms="4513" status="PASS">
+        <test-method signature="dropDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:06 IST" name="dropDown" finished-at="2025-12-31T16:14:10 IST" duration-ms="4503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:25 IST" name="tearDown" finished-at="2025-12-31T16:09:25 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:10 IST" name="tearDown" finished-at="2025-12-31T16:14:10 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:25 IST" name="setupDriver" finished-at="2025-12-31T16:09:28 IST" duration-ms="3018" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:10 IST" name="setupDriver" finished-at="2025-12-31T16:14:13 IST" duration-ms="3226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="radioDemo()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:28 IST" name="radioDemo" finished-at="2025-12-31T16:09:28 IST" duration-ms="269" status="PASS">
+        <test-method signature="radioDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:13 IST" name="radioDemo" finished-at="2025-12-31T16:14:14 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:28 IST" name="tearDown" finished-at="2025-12-31T16:09:28 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:14 IST" name="tearDown" finished-at="2025-12-31T16:14:14 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:28 IST" name="setupDriver" finished-at="2025-12-31T16:09:31 IST" duration-ms="3015" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:14 IST" name="setupDriver" finished-at="2025-12-31T16:14:18 IST" duration-ms="3566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="suggessionDemo()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:31 IST" name="suggessionDemo" finished-at="2025-12-31T16:09:35 IST" duration-ms="3435" status="PASS">
+        <test-method signature="suggessionDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:18 IST" name="suggessionDemo" finished-at="2025-12-31T16:14:20 IST" duration-ms="2390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggessionDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:35 IST" name="tearDown" finished-at="2025-12-31T16:09:35 IST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:20 IST" name="tearDown" finished-at="2025-12-31T16:14:20 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:35 IST" name="setupDriver" finished-at="2025-12-31T16:09:38 IST" duration-ms="2973" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:20 IST" name="setupDriver" finished-at="2025-12-31T16:14:23 IST" duration-ms="3073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="switchDemo()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:38 IST" name="switchDemo" finished-at="2025-12-31T16:09:38 IST" duration-ms="257" status="PASS">
+        <test-method signature="switchDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:23 IST" name="switchDemo" finished-at="2025-12-31T16:14:23 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:38 IST" name="tearDown" finished-at="2025-12-31T16:09:39 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:23 IST" name="tearDown" finished-at="2025-12-31T16:14:24 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:39 IST" name="setupDriver" finished-at="2025-12-31T16:09:41 IST" duration-ms="2896" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:24 IST" name="setupDriver" finished-at="2025-12-31T16:14:27 IST" duration-ms="3120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="switchWindow()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:41 IST" name="switchWindow" finished-at="2025-12-31T16:09:43 IST" duration-ms="1084" status="PASS">
+        <test-method signature="switchWindow()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:27 IST" name="switchWindow" finished-at="2025-12-31T16:14:28 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchWindow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@1165b38]" started-at="2025-12-31T16:09:43 IST" name="tearDown" finished-at="2025-12-31T16:09:43 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:28 IST" name="tearDown" finished-at="2025-12-31T16:14:28 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AutomationPractice.AllTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
