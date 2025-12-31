@@ -5,14 +5,14 @@
     <classes>
       <class name="AutomationPractice.AllTestCases">
         <methods>
+          <include name="setup"/>
           <include name="tearDown"/>
           <include name="dropDown"/>
           <include name="switchWindow"/>
           <include name="switchDemo"/>
-          <include name="radioDemo"/>
+          <include name="setUrl"/>
           <include name="suggessionDemo"/>
-          <include name="setupDriver"/>
-          <include name="checkBox"/>
+          <include name="radioDemo"/>
         </methods>
       </class> <!-- AutomationPractice.AllTestCases -->
     </classes>

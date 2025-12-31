@@ -8,16 +8,38 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,558</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,612</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">AutomationPractice.AllTestCases</td><td><a href="#m0">checkBox</a></td><td rowspan="1">1767177842432</td><td rowspan="1">272</td></tr><tr class="passedeven"><td><a href="#m1">dropDown</a></td><td rowspan="1">1767177846015</td><td rowspan="1">4503</td></tr><tr class="passedeven"><td><a href="#m2">radioDemo</a></td><td rowspan="1">1767177853961</td><td rowspan="1">275</td></tr><tr class="passedeven"><td><a href="#m3">suggessionDemo</a></td><td rowspan="1">1767177858010</td><td rowspan="1">2390</td></tr><tr class="passedeven"><td><a href="#m4">switchDemo</a></td><td rowspan="1">1767177863672</td><td rowspan="1">264</td></tr><tr class="passedeven"><td><a href="#m5">switchWindow</a></td><td rowspan="1">1767177867240</td><td rowspan="1">1058</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">AutomationPractice.AllTestCases</td><td><a href="#m0">tabDemo</a></td><td rowspan="1">1767178532154</td><td rowspan="1">6434</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">AutomationPractice.AllTestCases</td><td><a href="#m1">checkBox</a></td><td rowspan="1">1767178520345</td><td rowspan="1">276</td></tr><tr class="passedeven"><td><a href="#m2">dropDown</a></td><td rowspan="1">1767178521174</td><td rowspan="1">4363</td></tr><tr class="passedeven"><td><a href="#m3">radioDemo</a></td><td rowspan="1">1767178526046</td><td rowspan="1">133</td></tr><tr class="passedeven"><td><a href="#m4">suggessionDemo</a></td><td rowspan="1">1767178526695</td><td rowspan="1">2231</td></tr><tr class="passedeven"><td><a href="#m5">switchDemo</a></td><td rowspan="1">1767178529497</td><td rowspan="1">132</td></tr><tr class="passedeven"><td><a href="#m6">switchWindow</a></td><td rowspan="1">1767178530241</td><td rowspan="1">1271</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">AutomationPractice.AllTestCases#checkBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">AutomationPractice.AllTestCases#dropDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">AutomationPractice.AllTestCases#radioDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">AutomationPractice.AllTestCases#suggessionDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">AutomationPractice.AllTestCases#switchDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">AutomationPractice.AllTestCases#switchWindow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">AutomationPractice.AllTestCases#tabDemo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e9a45eb116ab29ff7ff1409306679c, isElementDisplayed {id=f.413C14C1FAE08422F72D9A4CBCE95E24.d.3901E21FAB320E8CE119DEB02A32F16F.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\USLMY6\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53780}, goog:processID: 11976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53780/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e9a45eb116ab29ff7ff1409306679c)] -&gt; xpath: (//a[text()=&apos;Courses&apos;])[1]]
+Session ID: 97e9a45eb116ab29ff7ff1409306679c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at AutomationPractice.AllTestCases.tabDemo(AllTestCases.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AutomationPractice.AllTestCases#checkBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">AutomationPractice.AllTestCases#dropDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">AutomationPractice.AllTestCases#radioDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">AutomationPractice.AllTestCases#suggessionDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">AutomationPractice.AllTestCases#switchDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">AutomationPractice.AllTestCases#switchWindow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

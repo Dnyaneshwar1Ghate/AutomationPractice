@@ -5,9 +5,9 @@
     <classes>
       <class name="AutomationPractice.AllTestCases">
         <methods>
+          <include name="setup"/>
           <include name="tabDemo"/>
-          <include name="tearDown"/>
-          <include name="setupDriver"/>
+          <include name="setUrl"/>
         </methods>
       </class> <!-- AutomationPractice.AllTestCases -->
     </classes>

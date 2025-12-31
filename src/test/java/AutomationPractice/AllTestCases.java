@@ -9,14 +9,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import Temp.BaseClass;
 
 public class AllTestCases extends BaseClass {
 
+	
+	@BeforeMethod
+	public void setUrl()
+	{
+		getDriver().get("https://rahulshettyacademy.com/AutomationPractice/");
+	}
 	@Test
 	public void radioDemo() {
-		List<WebElement> allRadio = driver.findElements(By.className("radioButton"));
+		
+		List<WebElement> allRadio = getDriver().findElements(By.className("radioButton"));
 		System.out.println(allRadio.size());
 
 		for (WebElement radio : allRadio) {
@@ -33,13 +42,13 @@ public class AllTestCases extends BaseClass {
 	@Test
 	public void suggessionDemo() throws InterruptedException {
 
-		WebElement input = driver.findElement(By.id("autocomplete"));
+		WebElement input = getDriver().findElement(By.id("autocomplete"));
 
 		input.sendKeys("ind");
 
 		Thread.sleep(2000);
 
-		List<WebElement> suggestions = driver.findElements(By.xpath("//li[@class='ui-menu-item']/div"));
+		List<WebElement> suggestions = getDriver().findElements(By.xpath("//li[@class='ui-menu-item']/div"));
 
 		for (WebElement option : suggestions) {
 			if (option.getText().equalsIgnoreCase("India")) {
@@ -53,7 +62,7 @@ public class AllTestCases extends BaseClass {
 	@Test
 	public void dropDown() throws InterruptedException {
 
-		WebElement dropdown = driver.findElement(By.id("dropdown-class-example"));
+		WebElement dropdown = getDriver().findElement(By.id("dropdown-class-example"));
 		Select select = new Select(dropdown);
 
 		select.selectByVisibleText("Option1");
@@ -67,7 +76,7 @@ public class AllTestCases extends BaseClass {
 	@Test
 	public void checkBox() {
 
-		List<WebElement> allcheck = driver.findElements(By.xpath("//input[@type='checkbox']"));
+		List<WebElement> allcheck = getDriver().findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println(allcheck.size());
 
 		for (WebElement all : allcheck) {
@@ -82,20 +91,20 @@ public class AllTestCases extends BaseClass {
 
 	@Test
 	public void switchWindow() {
-		WebElement openWindow = driver.findElement(By.id("openwindow"));
+		WebElement openWindow = getDriver().findElement(By.id("openwindow"));
 		openWindow.click();
-		String mainWindow = driver.getWindowHandle();
-		Set<String> allWindow = driver.getWindowHandles();
+		String mainWindow = getDriver().getWindowHandle();
+		Set<String> allWindow = getDriver().getWindowHandles();
 
 		for (String child : allWindow) {
 			if (!mainWindow.equals(child)) {
-				driver.switchTo().window(child);
-				WebElement logo = driver.findElement(By.xpath("(//div[@class='logo'])[1]"));
+				getDriver().switchTo().window(child);
+				WebElement logo = getDriver().findElement(By.xpath("(//div[@class='logo'])[1]"));
 				Assert.assertTrue(logo.isDisplayed(), "not displayed");
 
 			}
-			driver.switchTo().window(mainWindow);
-			WebElement mainWindowLogo = driver.findElement(By.xpath("//img[@class='logoClass']"));
+			getDriver().switchTo().window(mainWindow);
+			WebElement mainWindowLogo = getDriver().findElement(By.xpath("//img[@class='logoClass']"));
 			Assert.assertTrue(mainWindowLogo.isDisplayed(), "not displayed");
 
 		}
@@ -105,22 +114,22 @@ public class AllTestCases extends BaseClass {
 	// @Test
 	public void tabDemo() throws InterruptedException {
 
-		driver.findElement(By.id("opentab")).click();
+		getDriver().findElement(By.id("opentab")).click();
 
-		String mainTab = driver.getWindowHandle();
-		Set<String> allTabes = driver.getWindowHandles();
+		String mainTab = getDriver().getWindowHandle();
+		Set<String> allTabes = getDriver().getWindowHandles();
 
 		for (String tab : allTabes) {
 			if (!mainTab.equals(tab)) {
-				driver.switchTo().window(tab);
+				getDriver().switchTo().window(tab);
 			}
 		}
 
-		WebElement logo = driver.findElement(By.xpath("(//a[text()='Courses'])[1]"));
+		WebElement logo = getDriver().findElement(By.xpath("(//a[text()='Courses'])[1]"));
 		Assert.assertTrue(logo.isDisplayed(), "not displayed");
 		logo.click();
 		Thread.sleep(3000);
-		List<WebElement> para = driver.findElements(By.xpath("//div[@data-purpose='instructor-description']/p"));
+		List<WebElement> para = getDriver().findElements(By.xpath("//div[@data-purpose='instructor-description']/p"));
 		System.out.println(para.size());
 
 		Assert.assertTrue(logo.isDisplayed());
@@ -129,16 +138,12 @@ public class AllTestCases extends BaseClass {
 
 	@Test
 	public void switchDemo() {
-		WebElement alt = driver.findElement(By.id("alertbtn"));
+		WebElement alt = getDriver().findElement(By.id("alertbtn"));
 		alt.click();
-		Alert alert = driver.switchTo().alert();
+		Alert alert = getDriver().switchTo().alert();
 		String alertText = alert.getText();
 		System.out.println(alertText);
 		alert.accept();
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
-	}
 }

@@ -1,85 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-31T16:13:58 IST" name="Default suite" finished-at="2025-12-31T16:14:28 IST" duration-ms="29558">
+  <suite started-at="2025-12-31T16:25:15 IST" name="Suite" finished-at="2025-12-31T16:25:38 IST" duration-ms="22612">
     <groups>
     </groups>
-    <test started-at="2025-12-31T16:13:58 IST" name="Default test" finished-at="2025-12-31T16:14:28 IST" duration-ms="29558">
+    <test started-at="2025-12-31T16:25:15 IST" name="Test" finished-at="2025-12-31T16:25:38 IST" duration-ms="22612">
       <class name="AutomationPractice.AllTestCases">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:13:58 IST" name="setupDriver" finished-at="2025-12-31T16:14:02 IST" duration-ms="3427" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:16 IST" name="setup" finished-at="2025-12-31T16:25:17 IST" duration-ms="1744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="checkBox()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="checkBox" finished-at="2025-12-31T16:14:02 IST" duration-ms="272" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:17 IST" name="setUrl" finished-at="2025-12-31T16:25:20 IST" duration-ms="2589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="checkBox()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:20 IST" name="checkBox" finished-at="2025-12-31T16:25:20 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="tearDown" finished-at="2025-12-31T16:14:02 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:20 IST" name="setUrl" finished-at="2025-12-31T16:25:21 IST" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:02 IST" name="setupDriver" finished-at="2025-12-31T16:14:06 IST" duration-ms="3106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="dropDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:06 IST" name="dropDown" finished-at="2025-12-31T16:14:10 IST" duration-ms="4503" status="PASS">
+        </test-method> <!-- setUrl -->
+        <test-method signature="dropDown()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:21 IST" name="dropDown" finished-at="2025-12-31T16:25:25 IST" duration-ms="4363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:10 IST" name="tearDown" finished-at="2025-12-31T16:14:10 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:25 IST" name="setUrl" finished-at="2025-12-31T16:25:26 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:10 IST" name="setupDriver" finished-at="2025-12-31T16:14:13 IST" duration-ms="3226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="radioDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:13 IST" name="radioDemo" finished-at="2025-12-31T16:14:14 IST" duration-ms="275" status="PASS">
+        </test-method> <!-- setUrl -->
+        <test-method signature="radioDemo()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:26 IST" name="radioDemo" finished-at="2025-12-31T16:25:26 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:14 IST" name="tearDown" finished-at="2025-12-31T16:14:14 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:26 IST" name="setUrl" finished-at="2025-12-31T16:25:26 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:14 IST" name="setupDriver" finished-at="2025-12-31T16:14:18 IST" duration-ms="3566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="suggessionDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:18 IST" name="suggessionDemo" finished-at="2025-12-31T16:14:20 IST" duration-ms="2390" status="PASS">
+        </test-method> <!-- setUrl -->
+        <test-method signature="suggessionDemo()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:26 IST" name="suggessionDemo" finished-at="2025-12-31T16:25:28 IST" duration-ms="2231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggessionDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:20 IST" name="tearDown" finished-at="2025-12-31T16:14:20 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:28 IST" name="setUrl" finished-at="2025-12-31T16:25:29 IST" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:20 IST" name="setupDriver" finished-at="2025-12-31T16:14:23 IST" duration-ms="3073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="switchDemo()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:23 IST" name="switchDemo" finished-at="2025-12-31T16:14:23 IST" duration-ms="264" status="PASS">
+        </test-method> <!-- setUrl -->
+        <test-method signature="switchDemo()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:29 IST" name="switchDemo" finished-at="2025-12-31T16:25:29 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:23 IST" name="tearDown" finished-at="2025-12-31T16:14:24 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:29 IST" name="setUrl" finished-at="2025-12-31T16:25:30 IST" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:24 IST" name="setupDriver" finished-at="2025-12-31T16:14:27 IST" duration-ms="3120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="switchWindow()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:27 IST" name="switchWindow" finished-at="2025-12-31T16:14:28 IST" duration-ms="1058" status="PASS">
+        </test-method> <!-- setUrl -->
+        <test-method signature="switchWindow()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:30 IST" name="switchWindow" finished-at="2025-12-31T16:25:31 IST" duration-ms="1271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchWindow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationPractice.AllTestCases@4c12331b]" started-at="2025-12-31T16:14:28 IST" name="tearDown" finished-at="2025-12-31T16:14:28 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="setUrl()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:31 IST" name="setUrl" finished-at="2025-12-31T16:25:32 IST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- setUrl -->
+        <test-method signature="tabDemo()[pri:0, instance:AutomationPractice.AllTestCases@1ce24091]" started-at="2025-12-31T16:25:32 IST" name="tabDemo" finished-at="2025-12-31T16:25:38 IST" duration-ms="6434" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e9a45eb116ab29ff7ff1409306679c, isElementDisplayed {id=f.413C14C1FAE08422F72D9A4CBCE95E24.d.3901E21FAB320E8CE119DEB02A32F16F.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\USLMY6\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53780}, goog:processID: 11976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53780/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e9a45eb116ab29ff7ff1409306679c)] -> xpath: (//a[text()='Courses'])[1]]
+Session ID: 97e9a45eb116ab29ff7ff1409306679c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e9a45eb116ab29ff7ff1409306679c, isElementDisplayed {id=f.413C14C1FAE08422F72D9A4CBCE95E24.d.3901E21FAB320E8CE119DEB02A32F16F.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\USLMY6\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53780}, goog:processID: 11976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53780/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e9a45eb116ab29ff7ff1409306679c)] -> xpath: (//a[text()='Courses'])[1]]
+Session ID: 97e9a45eb116ab29ff7ff1409306679c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+at AutomationPractice.AllTestCases.tabDemo(AllTestCases.java:135)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabDemo -->
       </class> <!-- AutomationPractice.AllTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
